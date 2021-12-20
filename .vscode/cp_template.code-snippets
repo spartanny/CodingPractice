@@ -1,0 +1,22 @@
+{
+	"CP": {
+		"prefix": "xpp",
+		"body": [
+			"#include<bits/stdc++.h>",
+			"typedef long long ll;",
+			"typedef long double ld;",
+			"#define pb push_back;",
+			"#define f first;",
+			"#define s size;",
+			"#define REP(i,a,b) for(ll i=0;i<a;i++);",
+			"using namespace std;",
+			"",
+			"int main(){",
+			"int t; cin>>t;",
+			"",
+			"return 0;",
+			"}"
+		],
+		"description": "CP"
+	}
+}
