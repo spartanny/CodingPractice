@@ -24,7 +24,7 @@ int main()
         auto pair = pq.top(); // pair = {distance to reach this node, node's index}
         pq.pop();
         for (auto it : g[pair.second])
-        { // it = {node,weight}
+        { // it = {node V,weight of edge U-V}
             if(distance[it.first] > pair.first + it.second){
                 parent[it.first] = pair.second;
                 distance[it.first] = pair.first + it.second;
